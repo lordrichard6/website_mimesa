@@ -8,10 +8,10 @@
     "start": "Start for free"
   },
   "hero": {
-    "title": "The easy-to-use restaurant",
-    "titleHighlight": "booking system",
-    "titleSuffix": "with benefits.",
-    "subtitle": "miMesa is the all-in-one platform for modern restaurants. Manage reservations, tables, and guest relationships without the commission fees.",
+    "title": "One system to run",
+    "titleHighlight": "every reservation",
+    "titleSuffix": "commission-free.",
+    "subtitle": "Reservations, table management, guest CRM, waitlists, and analytics — all in one platform. Flat monthly price in CHF. No per-cover fees. Ever.",
     "cta_primary": "Start free trial",
     "cta_secondary": "Sign in"
   },

@@ -8,10 +8,10 @@
     "start": "Commencer gratuitement"
   },
   "hero": {
-    "title": "Le système de réservation pour restaurants",
-    "titleHighlight": "simple et efficace",
-    "titleSuffix": "avec des avantages.",
-    "subtitle": "miMesa est la plateforme tout-en-un pour les restaurants modernes. Gérez vos réservations, vos tables et vos relations clients sans frais de commission.",
+    "title": "Un seul système pour gérer",
+    "titleHighlight": "toutes vos réservations",
+    "titleSuffix": "sans commission.",
+    "subtitle": "Réservations, gestion des tables, CRM clients, liste d'attente et analyses — tout en une plateforme. Prix mensuel fixe en CHF. Aucun frais de couvert. Jamais.",
     "cta_primary": "Essai gratuit",
     "cta_secondary": "Se connecter"
   },
