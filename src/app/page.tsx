@@ -24,18 +24,18 @@ export default function Home() {
               miMesa is the all-in-one platform for modern restaurants. Manage reservations, tables, and guest relationships without the commission fees.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Link
-                href="/signup"
+              <a
+                href="https://app.mimesa.ch/signup"
                 className="px-8 py-4 bg-brand-orange text-white text-lg font-bold rounded-lg hover:bg-yellow-600 transition-all shadow-[0_4px_0_0_rgba(180,83,9,1)] hover:shadow-none hover:translate-y-[2px]"
               >
                 Start free trial
-              </Link>
-              <Link
-                href="/contact"
+              </a>
+              <a
+                href="https://app.mimesa.ch/login"
                 className="px-8 py-4 bg-white/10 text-white text-lg font-bold rounded-lg hover:bg-white/20 transition-all border border-white/20 text-center"
               >
-                Book a demo
-              </Link>
+                Sign in
+              </a>
             </div>
           </div>
           <div className="relative">
@@ -103,7 +103,7 @@ export default function Home() {
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500" /> 100 bookings/mo</li>
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500" /> Basic Support</li>
               </ul>
-              <button className="w-full py-3 border-2 border-green-600 text-green-600 font-bold rounded-lg hover:bg-green-50 transition-colors">Get Started</button>
+              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-green-600 text-green-600 font-bold rounded-lg hover:bg-green-50 transition-colors text-center">Get Started</a>
             </div>
 
             {/* Basic Plan */}
@@ -115,7 +115,7 @@ export default function Home() {
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> 500 bookings/mo</li>
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> Floor Plan</li>
               </ul>
-              <button className="w-full py-3 border-2 border-brand-coffee text-brand-coffee font-bold rounded-lg hover:bg-gray-50 transition-colors">Choose Basic</button>
+              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-brand-coffee text-brand-coffee font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">Choose Basic</a>
             </div>
 
             {/* Pro Plan (Highlighted) */}
@@ -129,7 +129,7 @@ export default function Home() {
                 <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange" /> Advanced Floor Plan</li>
                 <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange" /> Priority Support</li>
               </ul>
-              <button className="w-full py-3 bg-brand-orange text-white font-bold rounded-lg hover:bg-yellow-600 transition-colors shadow-lg">Start Free Trial</button>
+              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 bg-brand-orange text-white font-bold rounded-lg hover:bg-yellow-600 transition-colors shadow-lg text-center">Start Free Trial</a>
             </div>
 
             {/* Enterprise */}
@@ -141,7 +141,7 @@ export default function Home() {
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> Multi-location</li>
                 <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> API Access</li>
               </ul>
-              <button className="w-full py-3 border-2 border-brand-grey text-brand-grey font-bold rounded-lg hover:bg-gray-50 transition-colors">Contact Sales</button>
+              <a href="/contact" className="block w-full py-3 border-2 border-brand-grey text-brand-grey font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">Contact Sales</a>
             </div>
           </div>
         </div>

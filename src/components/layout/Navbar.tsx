@@ -46,15 +46,15 @@ export default function Navbar() {
 
                 {/* Auth Buttons */}
                 <div className="hidden md:flex items-center gap-4">
-                    <Link href="/admin" className="text-white hover:text-white/80 font-medium">
+                    <a href="https://app.mimesa.ch/login" className="text-white hover:text-white/80 font-medium">
                         Log in
-                    </Link>
-                    <Link
-                        href="/signup"
+                    </a>
+                    <a
+                        href="https://app.mimesa.ch/signup"
                         className="px-5 py-2.5 bg-brand-orange text-white font-bold rounded-lg hover:bg-yellow-600 transition-colors shadow-[0_4px_0_0_rgba(180,83,9,1)] hover:shadow-none hover:translate-y-[2px]"
                     >
                         Start for free
-                    </Link>
+                    </a>
                 </div>
 
                 {/* Mobile Toggle */}
@@ -74,14 +74,14 @@ export default function Navbar() {
                     <Link href="/about" className="text-lg text-white hover:text-brand-orange" onClick={() => setMobileMenuOpen(false)}>About</Link>
                     <Link href="/contact" className="text-lg text-white hover:text-brand-orange" onClick={() => setMobileMenuOpen(false)}>Contact</Link>
                     <hr className="border-white/10" />
-                    <Link href="/admin" className="text-lg text-white hover:text-white/80" onClick={() => setMobileMenuOpen(false)}>Log in</Link>
-                    <Link
-                        href="/signup"
+                    <a href="https://app.mimesa.ch/login" className="text-lg text-white hover:text-white/80" onClick={() => setMobileMenuOpen(false)}>Log in</a>
+                    <a
+                        href="https://app.mimesa.ch/signup"
                         className="px-5 py-3 bg-brand-orange text-white font-bold rounded-lg text-center hover:bg-yellow-600 shadow-[0_4px_0_0_rgba(180,83,9,1)]"
                         onClick={() => setMobileMenuOpen(false)}
                     >
                         Start for free
-                    </Link>
+                    </a>
                 </div>
             )}
         </nav>
