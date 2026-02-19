@@ -1,7 +1,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Instagram, Linkedin, Twitter } from "lucide-react";
+import { Twitter, Instagram, Linkedin } from "lucide-react";
 
 export default function Footer() {
     return (
@@ -22,10 +22,16 @@ export default function Footer() {
                         <p className="text-white/60 mb-6">
                             The operating system for modern restaurants. Handle reservations, tables, and guests with elegance.
                         </p>
-                        <div className="flex gap-4">
-                            <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Twitter size={20} /></a>
-                            <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Instagram size={20} /></a>
-                            <a href="#" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Linkedin size={20} /></a>
+                        <div className="flex gap-4 mb-6">
+                            <a href="#" aria-label="Twitter" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Twitter size={20} /></a>
+                            <a href="#" aria-label="Instagram" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Instagram size={20} /></a>
+                            <a href="#" aria-label="LinkedIn" className="p-2 bg-white/5 rounded-full hover:bg-brand-orange hover:text-white transition-all"><Linkedin size={20} /></a>
+                        </div>
+
+                        {/* Swiss Made Badge */}
+                        <div className="inline-flex items-center gap-2 bg-white/5 border border-white/10 rounded-lg px-3 py-2">
+                            <span className="text-lg" aria-hidden="true">🇨🇭</span>
+                            <span className="text-xs font-semibold text-white/80 tracking-wide">SWISS MADE</span>
                         </div>
                     </div>
 
@@ -33,35 +39,62 @@ export default function Footer() {
                     <div>
                         <h4 className="font-bold mb-6 text-brand-orange">Product</h4>
                         <ul className="space-y-4 text-white/60">
-                            <li><Link href="/features" className="hover:text-white">Features</Link></li>
-                            <li><Link href="/pricing" className="hover:text-white">Pricing</Link></li>
-                            <li><Link href="/changelog" className="hover:text-white">Changelog</Link></li>
-                            <li><Link href="/docs" className="hover:text-white">Documentation</Link></li>
+                            <li><Link href="/features" className="hover:text-white transition-colors">Features</Link></li>
+                            <li><Link href="/pricing" className="hover:text-white transition-colors">Pricing</Link></li>
+                            <li><Link href="/changelog" className="hover:text-white transition-colors">Changelog</Link></li>
+                            <li><Link href="/docs" className="hover:text-white transition-colors">Documentation</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="font-bold mb-6 text-brand-orange">Company</h4>
                         <ul className="space-y-4 text-white/60">
-                            <li><Link href="/about" className="hover:text-white">About Us</Link></li>
-                            <li><Link href="/careers" className="hover:text-white">Careers</Link></li>
-                            <li><Link href="/blog" className="hover:text-white">Blog</Link></li>
-                            <li><Link href="/contact" className="hover:text-white">Contact</Link></li>
+                            <li><Link href="/about" className="hover:text-white transition-colors">About Us</Link></li>
+                            <li><Link href="/careers" className="hover:text-white transition-colors">Careers</Link></li>
+                            <li><Link href="/blog" className="hover:text-white transition-colors">Blog</Link></li>
+                            <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                         </ul>
                     </div>
 
                     <div>
                         <h4 className="font-bold mb-6 text-brand-orange">Legal</h4>
                         <ul className="space-y-4 text-white/60">
-                            <li><Link href="/privacy" className="hover:text-white">Privacy Policy</Link></li>
-                            <li><Link href="/terms" className="hover:text-white">Terms of Service</Link></li>
-                            <li><Link href="/cookies" className="hover:text-white">Cookie Policy</Link></li>
+                            <li><Link href="/privacy" className="hover:text-white transition-colors">Privacy Policy</Link></li>
+                            <li><Link href="/terms" className="hover:text-white transition-colors">Terms of Service</Link></li>
+                            <li><Link href="/cookies" className="hover:text-white transition-colors">Cookie Policy</Link></li>
+                            <li><Link href="/data-protection" className="hover:text-white transition-colors">Data Protection (DSG)</Link></li>
                         </ul>
                     </div>
                 </div>
 
-                <div className="pt-8 border-t border-white/10 text-center text-white/40 text-sm">
-                    &copy; {new Date().getFullYear()} miMesa. All rights reserved.
+                {/* Data Protection Notice */}
+                <div className="mb-8 p-5 bg-white/5 border border-white/10 rounded-xl">
+                    <div className="flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                        <div className="flex items-center gap-3 shrink-0">
+                            <span className="text-2xl" aria-hidden="true">🇨🇭</span>
+                            <span className="text-sm font-semibold text-white/90">Data Stored in Switzerland</span>
+                        </div>
+                        <p className="text-xs text-white/50 leading-relaxed">
+                            All restaurant and guest data is stored exclusively on servers located in Switzerland, fully compliant with the Swiss Federal Act on Data Protection (revDSG / nFADP) and the EU General Data Protection Regulation (GDPR). Your data never leaves Swiss jurisdiction.
+                        </p>
+                    </div>
+                </div>
+
+                {/* Bottom bar */}
+                <div className="pt-8 border-t border-white/10 flex flex-col sm:flex-row items-center justify-between gap-4 text-white/40 text-sm">
+                    <p>&copy; {new Date().getFullYear()} miMesa. All rights reserved.</p>
+                    <p>
+                        Built by{" "}
+                        <a
+                            href="https://lopes2tech.ch"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="text-brand-orange hover:text-amber-400 transition-colors font-medium"
+                        >
+                            Lopes2tech
+                        </a>
+                        {" "}— Switzerland
+                    </p>
                 </div>
             </div>
         </footer>

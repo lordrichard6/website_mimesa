@@ -1,40 +1,46 @@
 # miMesa Website
 
-The official marketing website for miMesa, the operating system for modern restaurants.
+> Marketing website for miMesa — the operating system for modern restaurants.
 
-## 🔗 Links
+**Live:** [https://mimesa.ch](https://mimesa.ch)
+**App:** [https://app.mimesa.ch](https://app.mimesa.ch)
+**Repository:** [https://github.com/lordrichard6/website_mimesa](https://github.com/lordrichard6/website_mimesa)
+**Built by:** [Lopes2tech](https://lopes2tech.ch) — Switzerland
 
-- **Live Demo:** [https://website-mimesa.vercel.app](https://website-mimesa.vercel.app)
-- **Repository:** [https://github.com/lordrichard6/website_mimesa](https://github.com/lordrichard6/website_mimesa)
+---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
-- [Next.js](https://nextjs.org) - React Framework
-- [Tailwind CSS](https://tailwindcss.com) - Styling
+- [Next.js 15](https://nextjs.org) (App Router)
 - TypeScript
+- Tailwind CSS
+- Deployed on [Vercel](https://vercel.com)
 
-## 🚀 Getting Started
-
-First, install the dependencies:
+## Getting Started
 
 ```bash
 npm install
-```
-
-Then, run the development server:
-
-```bash
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-## 📁 Project Structure
+## Project Structure
 
-- `src/app/` - Next.js App Router pages
-- `src/components/` - React components
-- `public/` - Static assets
+```
+miMesa_website/
+├── src/
+│   ├── app/              # Pages (App Router)
+│   └── components/
+│       ├── layout/       # Navbar, Footer
+│       └── sections/     # Hero, Features, Pricing, CTA, etc.
+└── public/               # Logo, images, og-image
+```
 
-## 📄 License
+## Data & Compliance
 
-This project is proprietary and created by Lopes2Tech.
+All data processed by miMesa is stored in Switzerland (Supabase, region `eu-central-2 / Zurich`), compliant with the Swiss Federal Act on Data Protection (revDSG) and GDPR. See footer for full notice.
+
+## License
+
+Proprietary. &copy; {currentYear} miMesa / [Lopes2tech](https://lopes2tech.ch). All rights reserved.
