@@ -86,64 +86,85 @@ export default function Home() {
             {/* Highlight Badge */}
             <div className="inline-block bg-gradient-to-r from-brand-orange to-brand-red-orange p-[2px] rounded-full mb-6">
               <div className="bg-white px-6 py-2 rounded-full font-bold text-transparent bg-clip-text bg-gradient-to-r from-brand-orange to-brand-red-orange">
-                No booking commission or cover fees
+                No booking commissions. No cover fees. Ever.
               </div>
             </div>
-            <h2 className="text-3xl md:text-5xl font-bold text-brand-coffee mb-4">Transparent Pricing for Everyone</h2>
-            <p className="text-xl text-brand-grey">Choose the plan that fits your restaurant best.</p>
+            <h2 className="text-3xl md:text-5xl font-bold text-brand-coffee mb-4">Simple, Transparent Pricing</h2>
+            <p className="text-xl text-brand-grey">One flat monthly price. Cancel anytime. Prices in CHF (excl. VAT).</p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-4 gap-6">
             {/* Free Plan */}
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 flex flex-col hover:border-brand-orange transition-colors">
-              <h3 className="text-xl font-bold text-green-600 mb-2">Free Forever</h3>
-              <p className="text-4xl font-bold mb-1">$0</p>
-              <p className="text-sm text-gray-400 mb-6">/month</p>
+              <h3 className="text-xl font-bold text-green-600 mb-1">Free</h3>
+              <p className="text-sm text-gray-400 mb-4">Perfect to get started</p>
+              <p className="text-4xl font-bold mb-1">CHF 0</p>
+              <p className="text-sm text-gray-400 mb-6">/month, forever</p>
               <ul className="space-y-3 mb-8 flex-1">
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500" /> 100 bookings/mo</li>
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500" /> Basic Support</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500 shrink-0" /> Up to 50 reservations/mo</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500 shrink-0" /> Public booking page</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500 shrink-0" /> Table management</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500 shrink-0" /> Guest CRM</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-green-500 shrink-0" /> Email support</li>
               </ul>
-              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-green-600 text-green-600 font-bold rounded-lg hover:bg-green-50 transition-colors text-center">Get Started</a>
+              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-green-600 text-green-600 font-bold rounded-lg hover:bg-green-50 transition-colors text-center">Get Started Free</a>
             </div>
 
-            {/* Basic Plan */}
+            {/* Starter Plan */}
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 flex flex-col hover:border-brand-orange transition-colors">
-              <h3 className="text-xl font-bold text-brand-coffee mb-2">Basic</h3>
-              <p className="text-4xl font-bold mb-1">$29</p>
+              <h3 className="text-xl font-bold text-brand-coffee mb-1">Starter</h3>
+              <p className="text-sm text-gray-400 mb-4">For small restaurants</p>
+              <p className="text-4xl font-bold mb-1">CHF 49</p>
               <p className="text-sm text-gray-400 mb-6">/month</p>
               <ul className="space-y-3 mb-8 flex-1">
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> 500 bookings/mo</li>
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> Floor Plan</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Up to 300 reservations/mo</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Everything in Free</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Timeline floor view</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Revenue analytics</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Priority email support</li>
               </ul>
-              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-brand-coffee text-brand-coffee font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">Choose Basic</a>
+              <a href="https://app.mimesa.ch/signup" className="block w-full py-3 border-2 border-brand-coffee text-brand-coffee font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">Start Free Trial</a>
             </div>
 
             {/* Pro Plan (Highlighted) */}
             <div className="bg-brand-coffee text-white p-8 rounded-2xl shadow-xl flex flex-col relative transform md:-translate-y-4">
-              <div className="absolute top-0 right-0 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">POPULAR</div>
-              <h3 className="text-xl font-bold text-brand-orange mb-2">Professional</h3>
-              <p className="text-4xl font-bold mb-1">$49</p>
+              <div className="absolute top-0 right-0 bg-brand-orange text-white text-xs font-bold px-3 py-1 rounded-bl-lg rounded-tr-lg">MOST POPULAR</div>
+              <h3 className="text-xl font-bold text-brand-orange mb-1">Pro</h3>
+              <p className="text-sm text-white/50 mb-4">For busy restaurants</p>
+              <p className="text-4xl font-bold mb-1">CHF 89</p>
               <p className="text-sm text-white/50 mb-6">/month</p>
               <ul className="space-y-3 mb-8 flex-1">
-                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange" /> Unlimited bookings</li>
-                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange" /> Advanced Floor Plan</li>
-                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange" /> Priority Support</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Unlimited reservations</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Everything in Starter</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Custom booking page branding</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Logo &amp; colour palette</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Priority phone &amp; chat support</li>
+                <li className="flex items-center gap-2 text-sm"><Check size={16} className="text-brand-orange shrink-0" /> Swiss data storage certified</li>
               </ul>
               <a href="https://app.mimesa.ch/signup" className="block w-full py-3 bg-brand-orange text-white font-bold rounded-lg hover:bg-yellow-600 transition-colors shadow-lg text-center">Start Free Trial</a>
             </div>
 
             {/* Enterprise */}
             <div className="bg-white p-8 rounded-2xl shadow-sm border border-gray-200 flex flex-col hover:border-brand-orange transition-colors">
-              <h3 className="text-xl font-bold text-brand-grey mb-2">Enterprise</h3>
-              <p className="text-2xl font-bold mb-2 pt-2">Custom</p>
-              <p className="text-sm text-gray-400 mb-6">Contact for pricing</p>
+              <h3 className="text-xl font-bold text-brand-grey mb-1">Enterprise</h3>
+              <p className="text-sm text-gray-400 mb-4">Multi-location groups</p>
+              <p className="text-2xl font-bold mb-2 pt-2">On request</p>
+              <p className="text-sm text-gray-400 mb-6">Custom pricing</p>
               <ul className="space-y-3 mb-8 flex-1">
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> Multi-location</li>
-                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee" /> API Access</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Everything in Pro</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Multi-location dashboard</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> API access</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> Dedicated account manager</li>
+                <li className="flex items-center gap-2 text-sm text-gray-600"><Check size={16} className="text-brand-coffee shrink-0" /> SLA &amp; onboarding included</li>
               </ul>
               <a href="/contact" className="block w-full py-3 border-2 border-brand-grey text-brand-grey font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">Contact Sales</a>
             </div>
           </div>
+
+          {/* Competitor comparison note */}
+          <p className="text-center text-sm text-brand-grey mt-10">
+            Tablein charges €79–129/mo. TheFork adds per-cover commissions on top. miMesa is flat-rate, commission-free, and hosted in Switzerland.
+          </p>
         </div>
       </section>
 
