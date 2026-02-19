@@ -293,6 +293,10 @@
     "restaurantLabel": "Restaurantname",
     "messageLabel": "Nachricht",
     "messagePlaceholder": "Erzählen Sie uns von Ihren Bedürfnissen...",
+    "firstNamePlaceholder": "Hans",
+    "lastNamePlaceholder": "Müller",
+    "emailPlaceholder": "hans@restaurant.ch",
+    "restaurantPlaceholder": "Zum Goldenen Löwen",
     "sendButton": "Nachricht senden"
   }
 }

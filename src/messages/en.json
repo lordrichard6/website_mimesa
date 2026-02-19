@@ -293,6 +293,10 @@
     "restaurantLabel": "Restaurant Name",
     "messageLabel": "Message",
     "messagePlaceholder": "Tell us about your needs...",
+    "firstNamePlaceholder": "John",
+    "lastNamePlaceholder": "Doe",
+    "emailPlaceholder": "john@restaurant.com",
+    "restaurantPlaceholder": "Le Petit Bistro",
     "sendButton": "Send Message"
   }
 }

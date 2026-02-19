@@ -293,6 +293,10 @@
     "restaurantLabel": "Nom du restaurant",
     "messageLabel": "Message",
     "messagePlaceholder": "Parlez-nous de vos besoins...",
+    "firstNamePlaceholder": "Jean",
+    "lastNamePlaceholder": "Dupont",
+    "emailPlaceholder": "jean@restaurant.fr",
+    "restaurantPlaceholder": "Le Petit Bistrot",
     "sendButton": "Envoyer le message"
   }
 }

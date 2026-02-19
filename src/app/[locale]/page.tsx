@@ -1,11 +1,17 @@
+"use client";
+
 import { useTranslations } from "next-intl";
 import { Check, Clock, MapPin, ChevronRight, Tablet, Smartphone, Laptop } from "lucide-react";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 
 export default function Home() {
     const t = useTranslations();
+    const pathname = usePathname();
+    const currentLocale = pathname.split("/")[1] || "en";
+    const localePath = (path: string) => `/${currentLocale}${path}`;
 
     return (
         <main className="min-h-screen bg-white text-brand-coffee overflow-x-hidden">
@@ -60,11 +66,11 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-6 text-center">
                     <p className="text-sm font-bold text-gray-400 uppercase tracking-widest mb-6">{t("trustBar.label")}</p>
                     <div className="flex flex-wrap justify-center gap-8 md:gap-16 opacity-50 grayscale hover:grayscale-0 transition-all duration-500">
-                        <span className="text-2xl font-black text-gray-400">BURGER KING</span>
-                        <span className="text-2xl font-black text-gray-400">SUBWAY</span>
-                        <span className="text-2xl font-black text-gray-400">KFC</span>
-                        <span className="text-2xl font-black text-gray-400">PIZZA HUT</span>
-                        <span className="text-2xl font-black text-gray-400">DOMINOS</span>
+                        <span className="text-2xl font-black text-gray-400">Le Pavillon</span>
+                        <span className="text-2xl font-black text-gray-400">Osteria Roma</span>
+                        <span className="text-2xl font-black text-gray-400">Zum Löwen</span>
+                        <span className="text-2xl font-black text-gray-400">La Brasserie</span>
+                        <span className="text-2xl font-black text-gray-400">Casa Lisboa</span>
                     </div>
                 </div>
             </section>
@@ -145,7 +151,7 @@ export default function Home() {
                                     </li>
                                 ))}
                             </ul>
-                            <a href="/contact" className="block w-full py-3 border-2 border-brand-grey text-brand-grey font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">{t("pricing.enterprise.cta")}</a>
+                            <a href={localePath("/contact")} className="block w-full py-3 border-2 border-brand-grey text-brand-grey font-bold rounded-lg hover:bg-gray-50 transition-colors text-center">{t("pricing.enterprise.cta")}</a>
                         </div>
                     </div>
                     <p className="text-center text-sm text-brand-grey mt-10">{t("pricing.comparison")}</p>
@@ -186,7 +192,7 @@ export default function Home() {
                     <h3 className="text-3xl font-bold mb-4">{t("testimonial.heading")}</h3>
                     <p className="text-xl text-white/70 italic">&ldquo;{t("testimonial.quote")}&rdquo;</p>
                     <p className="mt-6 font-bold text-brand-orange">- {t("testimonial.author")}</p>
-                    <Link href="/contact" className="inline-block mt-8 px-8 py-3 bg-brand-orange rounded-lg font-bold hover:bg-yellow-600 transition-colors">
+                    <Link href={localePath("/contact")} className="inline-block mt-8 px-8 py-3 bg-brand-orange rounded-lg font-bold hover:bg-yellow-600 transition-colors">
                         {t("testimonial.cta")}
                     </Link>
                 </div>
@@ -227,7 +233,7 @@ export default function Home() {
                         <span className="text-brand-orange font-bold uppercase tracking-widest text-sm mb-2 block">{t("feature3.label")}</span>
                         <h2 className="text-4xl font-bold text-brand-coffee mb-6">{t("feature3.title")}</h2>
                         <p className="text-xl text-brand-grey mb-8">{t("feature3.subtitle")}</p>
-                        <Link href="/features" className="text-brand-red-orange font-bold flex items-center gap-2 hover:gap-4 transition-all">
+                        <Link href={localePath("/features")} className="text-brand-red-orange font-bold flex items-center gap-2 hover:gap-4 transition-all">
                             {t("feature3.cta")} <ChevronRight size={20} />
                         </Link>
                     </div>

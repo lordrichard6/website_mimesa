@@ -67,22 +67,22 @@ export default function ContactPage() {
                             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                                 <div>
                                     <label htmlFor="firstName" className="block text-sm font-medium text-gray-700 mb-2">{t("firstNameLabel")}</label>
-                                    <input type="text" id="firstName" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder="John" />
+                                    <input type="text" id="firstName" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder={t("firstNamePlaceholder")} />
                                 </div>
                                 <div>
                                     <label htmlFor="lastName" className="block text-sm font-medium text-gray-700 mb-2">{t("lastNameLabel")}</label>
-                                    <input type="text" id="lastName" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder="Doe" />
+                                    <input type="text" id="lastName" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder={t("lastNamePlaceholder")} />
                                 </div>
                             </div>
 
                             <div>
                                 <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">{t("emailFieldLabel")}</label>
-                                <input type="email" id="email" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder="john@restaurant.com" />
+                                <input type="email" id="email" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder={t("emailPlaceholder")} />
                             </div>
 
                             <div>
                                 <label htmlFor="restaurant" className="block text-sm font-medium text-gray-700 mb-2">{t("restaurantLabel")}</label>
-                                <input type="text" id="restaurant" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder="Le Petit Bistro" />
+                                <input type="text" id="restaurant" className="w-full px-4 py-3 rounded-lg border border-gray-300 focus:ring-2 focus:ring-brand-orange focus:border-transparent outline-none transition-all" placeholder={t("restaurantPlaceholder")} />
                             </div>
 
                             <div>

@@ -293,6 +293,10 @@
     "restaurantLabel": "Nome do Restaurante",
     "messageLabel": "Mensagem",
     "messagePlaceholder": "Fale-nos sobre as suas necessidades...",
+    "firstNamePlaceholder": "João",
+    "lastNamePlaceholder": "Silva",
+    "emailPlaceholder": "joao@restaurante.com",
+    "restaurantPlaceholder": "O Pequeno Bistrô",
     "sendButton": "Enviar Mensagem"
   }
 }

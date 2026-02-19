@@ -18,8 +18,15 @@ export default function AboutPage() {
 
             <section className="py-20 px-6 bg-white">
                 <div className="max-w-6xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
-                    <div className="relative h-[400px] md:h-[500px] bg-gray-100 rounded-2xl overflow-hidden">
-                        <div className="absolute inset-0 flex items-center justify-center text-gray-400">[Office/Team Image]</div>
+                    <div className="relative h-[400px] md:h-[500px] bg-brand-coffee rounded-2xl overflow-hidden flex items-center justify-center">
+                        <div className="text-center p-8">
+                            <div className="text-8xl mb-4">🍽️</div>
+                            <div className="text-2xl font-bold tracking-tighter flex items-center justify-center">
+                                <span className="text-brand-orange text-3xl">i</span>
+                                <span className="text-yellow-400 text-3xl">Mesa</span>
+                            </div>
+                            <p className="text-white/40 text-sm mt-2">Switzerland 🇨🇭</p>
+                        </div>
                     </div>
                     <div>
                         <h2 className="text-3xl font-bold text-brand-coffee mb-6">{t("storyTitle")}</h2>
