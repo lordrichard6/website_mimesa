@@ -1,0 +1,298 @@
+{
+  "nav": {
+    "features": "Funktionen",
+    "pricing": "Preise",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "start": "Kostenlos starten"
+  },
+  "hero": {
+    "title": "Das einfach zu bedienende",
+    "titleHighlight": "Restaurant-Buchungssystem",
+    "titleSuffix": "mit Mehrwert.",
+    "subtitle": "miMesa ist die All-in-One-Plattform für moderne Restaurants. Verwalten Sie Reservierungen, Tische und Gästebeziehungen – ohne Provisionen.",
+    "cta_primary": "Kostenlos testen",
+    "cta_secondary": "Anmelden"
+  },
+  "trustBar": {
+    "label": "Von über 1000 Restaurants genutzt"
+  },
+  "pricing": {
+    "badge": "Keine Buchungsprovisionen. Keine Couverts-Gebühren. Niemals.",
+    "title": "Einfache, transparente Preise",
+    "subtitle": "Ein fester monatlicher Preis. Jederzeit kündbar. Preise in CHF (ohne MwSt.).",
+    "free": {
+      "name": "Gratis",
+      "tagline": "Perfekt für den Einstieg",
+      "price": "CHF 0",
+      "period": "/Monat, für immer",
+      "features": [
+        "Bis zu 50 Reservierungen/Monat",
+        "Öffentliche Buchungsseite",
+        "Tischverwaltung",
+        "Gäste-CRM",
+        "E-Mail-Support"
+      ],
+      "cta": "Kostenlos starten"
+    },
+    "starter": {
+      "name": "Starter",
+      "tagline": "Für kleine Restaurants",
+      "price": "CHF 49",
+      "period": "/Monat",
+      "features": [
+        "Bis zu 300 Reservierungen/Monat",
+        "Alles im Gratis-Plan",
+        "Zeitstrahl-Saalansicht",
+        "Umsatzanalyse",
+        "Priorisierter E-Mail-Support"
+      ],
+      "cta": "Kostenlos testen"
+    },
+    "pro": {
+      "name": "Pro",
+      "tagline": "Für viel beschäftigte Restaurants",
+      "price": "CHF 89",
+      "period": "/Monat",
+      "badge": "AM BELIEBTESTEN",
+      "features": [
+        "Unbegrenzte Reservierungen",
+        "Alles im Starter-Plan",
+        "Individuelles Branding der Buchungsseite",
+        "Logo & Farbpalette",
+        "Priorisierter Telefon- & Chat-Support",
+        "Schweizer Datenspeicherung zertifiziert"
+      ],
+      "cta": "Kostenlos testen"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Gruppen mit mehreren Standorten",
+      "price": "Auf Anfrage",
+      "period": "Individuelle Preise",
+      "features": [
+        "Alles im Pro-Plan",
+        "Multi-Standort-Dashboard",
+        "API-Zugang",
+        "Dedizierter Account Manager",
+        "SLA & Onboarding inklusive"
+      ],
+      "cta": "Vertrieb kontaktieren"
+    },
+    "comparison": "Tablein berechnet €79–129/Monat. TheFork erhebt zusätzlich Provisions-Gebühren. miMesa ist zum Festpreis, provisionsfrei und in der Schweiz gehostet."
+  },
+  "feature1": {
+    "title": "Zeit und Frust sparen.",
+    "subtitle": "Schluss mit veralteter Hardware. miMesa läuft auf jedem Gerät, das Sie bereits besitzen. Keine teuren proprietären Terminals.",
+    "badge": "Spezielle Hardware? Nein danke."
+  },
+  "testimonial": {
+    "quote": "miMesa hat unsere Freitagabende komplett verändert. Das Support-Team ist unglaublich und immer für uns da.",
+    "author": "Sarah Jenkins, Inhaberin von The Golden Plate",
+    "heading": "\"Grossartiger Kundenservice\"",
+    "cta": "Mehr Erfolgsgeschichten lesen"
+  },
+  "feature2": {
+    "title": "Keine Überraschungen mehr.",
+    "subtitle": "Halten Sie Ihr gesamtes Team synchron. Vom Empfang bis zum Küchenbildschirm – alle sehen dieselben Echtzeit-Daten.",
+    "rows": {
+      "tables": {
+        "title": "Tischverwaltung",
+        "desc": "Reservierungen per Drag & Drop für optimale Bestuhlung."
+      },
+      "guests": {
+        "title": "Gästeprofile",
+        "desc": "Kennen Sie Ihre VIPs, bevor sie eintreffen."
+      },
+      "waitlist": {
+        "title": "Warteliste",
+        "desc": "Genaue Wartezeiten, zufriedene Gäste."
+      }
+    }
+  },
+  "feature3": {
+    "label": "CRM & Automatisierung",
+    "title": "Automatische Buchungsbestätigungen.",
+    "subtitle": "Reduzieren Sie No-Shows um bis zu 30% mit automatischen E-Mail- und SMS-Erinnerungen. Passen Sie die Nachricht an Ihre Marke an.",
+    "cta": "Mehr über CRM-Funktionen erfahren",
+    "email": {
+      "from": "miMesa Reservierungen",
+      "to": "An: paulo@example.com",
+      "subject": "Ihr Tisch ist bestätigt! 🎉",
+      "body": "Hallo Paulo, wir freuen uns darauf, Sie morgen um 19:00 Uhr im Lopes Bistro zu sehen.",
+      "idLabel": "Reservierungs-ID"
+    }
+  },
+  "video": {
+    "title": "Was unsere Kunden sagen"
+  },
+  "devices": {
+    "title": "Ihren Saal überall im Blick.",
+    "subtitle": "Native Apps für iPad, iPhone und Web. Verwalten Sie Ihren Saal vom Empfang oder von der Couch aus.",
+    "mobile": "Handy",
+    "tablet": "Tablet",
+    "desktop": "Desktop"
+  },
+  "featureGrid": {
+    "title": "Alle Funktionen, die Sie brauchen.",
+    "items": [
+      "Reservierungen",
+      "Tischverwaltung",
+      "Gäste-CRM",
+      "Warteliste",
+      "E-Mail-Bestätigungen",
+      "SMS-Erinnerungen",
+      "Anzahlungen (Stripe)",
+      "Vorbestellungen",
+      "Schichtverwaltung",
+      "Serverrotation",
+      "Tagesberichte",
+      "Analysen"
+    ]
+  },
+  "footer": {
+    "tagline": "Das Betriebssystem für moderne Restaurants. Reservierungen, Tische und Gäste mit Eleganz verwalten.",
+    "swissMade": "SWISS MADE",
+    "product": "Produkt",
+    "company": "Unternehmen",
+    "legal": "Rechtliches",
+    "links": {
+      "features": "Funktionen",
+      "pricing": "Preise",
+      "changelog": "Änderungsprotokoll",
+      "docs": "Dokumentation",
+      "about": "Über uns",
+      "careers": "Karriere",
+      "blog": "Blog",
+      "contact": "Kontakt",
+      "privacy": "Datenschutzerklärung",
+      "terms": "Nutzungsbedingungen",
+      "cookies": "Cookie-Richtlinie",
+      "dataProtection": "Datenschutz (DSG)"
+    },
+    "dataNotice": {
+      "label": "Daten in der Schweiz gespeichert",
+      "text": "Alle Restaurant- und Gästdaten werden ausschliesslich auf Servern in der Schweiz gespeichert, vollständig konform mit dem revidierten Schweizer Datenschutzgesetz (revDSG) und der EU-Datenschutzgrundverordnung (DSGVO). Ihre Daten verlassen die Schweizer Rechtsordnung niemals."
+    },
+    "copyright": "miMesa. Alle Rechte vorbehalten.",
+    "builtBy": "Entwickelt von",
+    "builtBySuffix": "— Schweiz"
+  },
+  "about": {
+    "heroTitle": "Wir glauben, dass Essen eine",
+    "heroHighlight": "Kunst",
+    "heroSuffix": " ist.",
+    "heroSubtitle": "miMesa wurde entwickelt, damit sich Gastronomen auf das konzentrieren können, was sie am besten können: unvergessliche Erlebnisse für ihre Gäste zu schaffen.",
+    "storyTitle": "Unsere Geschichte",
+    "story1": "Es begann mit einer einfachen Beobachtung: Die Verwaltung von Reservierungen wurde zur lästigen Pflicht statt zu einem Werkzeug für Gastfreundschaft. Umständliche Interfaces, teure Provisions-Gebühren und unverbundene Systeme hielten Restaurants zurück.",
+    "story2": "Wir haben ein Team aus Designern, Ingenieuren und Gastronomie-Experten zusammengestellt, um etwas anderes zu bauen. Ein System, das genauso gut aussieht wie Ihr Speisesaal und genauso hart arbeitet wie Ihr Küchenchef.",
+    "story3": "Heute betreut miMesa täglich Tausende von Gästen und hilft Restaurants, ihre Zeit zurückzugewinnen und die Kontrolle über ihre Kundenbeziehungen zu übernehmen.",
+    "valuesTitle": "Unsere Kernwerte",
+    "value1Title": "Gastfreundschaft an erster Stelle",
+    "value1Desc": "Wir entwickeln Software mit der gleichen Sorgfalt, mit der Sie Ihre Gäste bedienen. Jedes Detail ist durchdacht, jede Interaktion optimiert.",
+    "value2Title": "Transparente Partnerschaft",
+    "value2Desc": "Keine versteckten Gebühren, keine Provisions-Steuern. Wir sind Partner Ihres Erfolgs, keine Steuer auf Ihr Wachstum.",
+    "value3Title": "Design ist wichtig",
+    "value3Desc": "Werkzeuge sollen nicht nur funktionieren – sie sollen inspirieren. Eine schöne Benutzeroberfläche reduziert Stress und steigert die Freude."
+  },
+  "featuresPage": {
+    "heroTitle": "Alles, was Sie brauchen, um",
+    "heroHighlight": "Ihren Saal zu führen",
+    "heroSuffix": ".",
+    "heroSubtitle": "Leistungsstarke Werkzeuge für Reservierungen, Tischverwaltung und Gästebeziehungen.",
+    "card1Title": "Visueller Tischplaner",
+    "card1Desc": "Reservierungen per Drag & Drop auf Ihren genauen Grundriss legen. Verfügbarkeit auf einen Blick und maximale Kapazität.",
+    "card2Title": "Online-Buchung",
+    "card2Desc": "Nehmen Sie Reservierungen 24/7 über Ihre Website, Google und soziale Medien entgegen. Niemals Couverts-Gebühren.",
+    "card3Title": "Gäste-CRM",
+    "card3Desc": "Erstellen Sie eine Datenbank Ihrer Gäste. Verfolgen Sie Allergien, Vorlieben und Besuchshistorie für persönlichen Service.",
+    "card4Title": "Wartelistenverwaltung",
+    "card4Desc": "Genaue Wartezeiten angeben und Gäste per SMS benachrichtigen, wenn ihr Tisch bereit ist.",
+    "card5Title": "Schichtverwaltung",
+    "card5Desc": "Serverrotationen planen und Saalbereiche mühelos verwalten.",
+    "card6Title": "Analysen & Berichte",
+    "card6Desc": "Verstehen Sie Ihre Stoßzeiten, treuesten Gäste und Umsatztrends mit detaillierten Berichten.",
+    "speedTitle": "Für Geschwindigkeit entwickelt",
+    "speedDesc": "In einem belebten Restaurant zählt jede Sekunde. miMesa ist schnell, reaktionsschnell und einfach zu erlernen.",
+    "mockupLabel": "Interaktives Grundriss-Mockup"
+  },
+  "pricingPage": {
+    "heroTitle": "Einfache, transparente Preise.",
+    "heroSubtitle": "Keine Einrichtungsgebühren. Keine versteckten Kosten. Jederzeit kündbar.",
+    "popularBadge": "BELIEBT",
+    "getStarted": "Loslegen",
+    "startTrial": "Kostenlos testen",
+    "contactSales": "Vertrieb kontaktieren",
+    "free": {
+      "name": "Gratis",
+      "tagline": "Perfekt für den Einstieg",
+      "price": "CHF 0",
+      "period": "/Monat, für immer",
+      "features": [
+        "Bis zu 50 Reservierungen/Monat",
+        "Öffentliche Buchungsseite",
+        "Tischverwaltung",
+        "Gäste-CRM",
+        "E-Mail-Support"
+      ]
+    },
+    "starter": {
+      "name": "Starter",
+      "tagline": "Für kleine Restaurants",
+      "price": "CHF 49",
+      "period": "/Monat",
+      "features": [
+        "Bis zu 300 Reservierungen/Monat",
+        "Alles im Gratis-Plan",
+        "Zeitstrahl-Saalansicht",
+        "Umsatzanalyse",
+        "Priorisierter E-Mail-Support"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "tagline": "Für viel beschäftigte Restaurants",
+      "price": "CHF 89",
+      "period": "/Monat",
+      "features": [
+        "Unbegrenzte Reservierungen",
+        "Alles im Starter-Plan",
+        "Individuelles Branding der Buchungsseite",
+        "Logo & Farbpalette",
+        "Priorisierter Telefon- & Chat-Support",
+        "Schweizer Datenspeicherung zertifiziert"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Gruppen mit mehreren Standorten",
+      "price": "Auf Anfrage",
+      "period": "Individuelle Preise",
+      "features": [
+        "Alles im Pro-Plan",
+        "Multi-Standort-Dashboard",
+        "API-Zugang",
+        "Dedizierter Account Manager",
+        "SLA & Onboarding inklusive"
+      ]
+    },
+    "comparison": "Tablein berechnet €79–129/Monat. TheFork erhebt zusätzlich Provisions-Gebühren. miMesa ist zum Festpreis, provisionsfrei und in der Schweiz gehostet."
+  },
+  "contact": {
+    "heroTitle": "Kontakt aufnehmen",
+    "heroSubtitle": "Haben Sie Fragen zu miMesa? Wir helfen Ihnen gerne, das Erlebnis Ihres Restaurants zu verbessern.",
+    "talkTitle": "Sprechen wir.",
+    "talkSubtitle": "Füllen Sie das Formular aus und unser Team meldet sich innerhalb von 24 Stunden.",
+    "emailLabel": "E-Mail",
+    "officeLabel": "Büro",
+    "phoneLabel": "Telefon",
+    "firstNameLabel": "Vorname",
+    "lastNameLabel": "Nachname",
+    "emailFieldLabel": "Geschäftliche E-Mail",
+    "restaurantLabel": "Restaurantname",
+    "messageLabel": "Nachricht",
+    "messagePlaceholder": "Erzählen Sie uns von Ihren Bedürfnissen...",
+    "sendButton": "Nachricht senden"
+  }
+}

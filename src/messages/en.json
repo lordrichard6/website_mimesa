@@ -1,0 +1,298 @@
+{
+  "nav": {
+    "features": "Features",
+    "pricing": "Pricing",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Log in",
+    "start": "Start for free"
+  },
+  "hero": {
+    "title": "The easy-to-use restaurant",
+    "titleHighlight": "booking system",
+    "titleSuffix": "with benefits.",
+    "subtitle": "miMesa is the all-in-one platform for modern restaurants. Manage reservations, tables, and guest relationships without the commission fees.",
+    "cta_primary": "Start free trial",
+    "cta_secondary": "Sign in"
+  },
+  "trustBar": {
+    "label": "Trusted by 1000+ Restaurants"
+  },
+  "pricing": {
+    "badge": "No booking commissions. No cover fees. Ever.",
+    "title": "Simple, Transparent Pricing",
+    "subtitle": "One flat monthly price. Cancel anytime. Prices in CHF (excl. VAT).",
+    "free": {
+      "name": "Free",
+      "tagline": "Perfect to get started",
+      "price": "CHF 0",
+      "period": "/month, forever",
+      "features": [
+        "Up to 50 reservations/mo",
+        "Public booking page",
+        "Table management",
+        "Guest CRM",
+        "Email support"
+      ],
+      "cta": "Get Started Free"
+    },
+    "starter": {
+      "name": "Starter",
+      "tagline": "For small restaurants",
+      "price": "CHF 49",
+      "period": "/month",
+      "features": [
+        "Up to 300 reservations/mo",
+        "Everything in Free",
+        "Timeline floor view",
+        "Revenue analytics",
+        "Priority email support"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "pro": {
+      "name": "Pro",
+      "tagline": "For busy restaurants",
+      "price": "CHF 89",
+      "period": "/month",
+      "badge": "MOST POPULAR",
+      "features": [
+        "Unlimited reservations",
+        "Everything in Starter",
+        "Custom booking page branding",
+        "Logo & colour palette",
+        "Priority phone & chat support",
+        "Swiss data storage certified"
+      ],
+      "cta": "Start Free Trial"
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Multi-location groups",
+      "price": "On request",
+      "period": "Custom pricing",
+      "features": [
+        "Everything in Pro",
+        "Multi-location dashboard",
+        "API access",
+        "Dedicated account manager",
+        "SLA & onboarding included"
+      ],
+      "cta": "Contact Sales"
+    },
+    "comparison": "Tablein charges €79–129/mo. TheFork adds per-cover commissions on top. miMesa is flat-rate, commission-free, and hosted in Switzerland."
+  },
+  "feature1": {
+    "title": "Save time and frustrations.",
+    "subtitle": "Stop using clunky, outdated hardware. miMesa works on any device you already own. No expensive proprietary terminals needed.",
+    "badge": "Target Hardware? No thanks."
+  },
+  "testimonial": {
+    "quote": "miMesa transformed how we handle our Friday nights. The support team is incredible and always there when we need them.",
+    "author": "Sarah Jenkins, Owner of The Golden Plate",
+    "heading": "\"Great customer service\"",
+    "cta": "Read more success stories"
+  },
+  "feature2": {
+    "title": "Stop surprises anywhere.",
+    "subtitle": "Keep your entire team in sync. From host stand to kitchen display, everyone sees the same real-time data.",
+    "rows": {
+      "tables": {
+        "title": "Table Management",
+        "desc": "Drag and drop reservations to optimize seating."
+      },
+      "guests": {
+        "title": "Guest Profiling",
+        "desc": "Know your VIPs before they walk in the door."
+      },
+      "waitlist": {
+        "title": "Waitlist",
+        "desc": "Accurate wait times, happy customers."
+      }
+    }
+  },
+  "feature3": {
+    "label": "CRM & Automation",
+    "title": "Automated booking confirmations.",
+    "subtitle": "Reduce no-shows by up to 30% with automated email and SMS reminders. Customize the message to fit your brand voice.",
+    "cta": "Learn about CRM features",
+    "email": {
+      "from": "miMesa Reservations",
+      "to": "To: paulo@example.com",
+      "subject": "Your table is confirmed! 🎉",
+      "body": "Hi Paulo, we look forward to seeing you at Lopes Bistro tomorrow at 7:00 PM.",
+      "idLabel": "Reservation ID"
+    }
+  },
+  "video": {
+    "title": "See what our customers have to say"
+  },
+  "devices": {
+    "title": "Follow your dining presence anywhere.",
+    "subtitle": "Native apps for iPads, iPhones, and Web. Manage your floor from the host stand or your couch.",
+    "mobile": "Mobile",
+    "tablet": "Tablet",
+    "desktop": "Desktop"
+  },
+  "featureGrid": {
+    "title": "We have all the features you need.",
+    "items": [
+      "Reservations",
+      "Table Management",
+      "Guest CRM",
+      "Waitlist",
+      "Email Confirmations",
+      "SMS Reminders",
+      "Deposits (Stripe)",
+      "Pre-orders",
+      "Shift Management",
+      "Server Rotation",
+      "Daily Reports",
+      "Analytics"
+    ]
+  },
+  "footer": {
+    "tagline": "The operating system for modern restaurants. Handle reservations, tables, and guests with elegance.",
+    "swissMade": "SWISS MADE",
+    "product": "Product",
+    "company": "Company",
+    "legal": "Legal",
+    "links": {
+      "features": "Features",
+      "pricing": "Pricing",
+      "changelog": "Changelog",
+      "docs": "Documentation",
+      "about": "About Us",
+      "careers": "Careers",
+      "blog": "Blog",
+      "contact": "Contact",
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service",
+      "cookies": "Cookie Policy",
+      "dataProtection": "Data Protection (DSG)"
+    },
+    "dataNotice": {
+      "label": "Data Stored in Switzerland",
+      "text": "All restaurant and guest data is stored exclusively on servers located in Switzerland, fully compliant with the Swiss Federal Act on Data Protection (revDSG / nFADP) and the EU General Data Protection Regulation (GDPR). Your data never leaves Swiss jurisdiction."
+    },
+    "copyright": "miMesa. All rights reserved.",
+    "builtBy": "Built by",
+    "builtBySuffix": "— Switzerland"
+  },
+  "about": {
+    "heroTitle": "We believe dining is an",
+    "heroHighlight": "art",
+    "heroSuffix": ".",
+    "heroSubtitle": "miMesa was built to help restaurateurs focus on what they do best: creating unforgettable experiences for their guests.",
+    "storyTitle": "Our Story",
+    "story1": "It started with a simple observation: managing reservations was becoming a chore, not a hospitality tool. Clunky interfaces, expensive per-cover fees, and disconnected systems were holding restaurants back.",
+    "story2": "We gathered a team of designers, engineers, and hospitality veterans to build something different. A system that looks as good as your dining room and works as hard as your head chef.",
+    "story3": "Today, miMesa serves thousands of guests daily, helping restaurants reclaim their time and ownership of their customer relationships.",
+    "valuesTitle": "Our Core Values",
+    "value1Title": "Hospitality First",
+    "value1Desc": "We build software with the same care you serve your guests. Every pixel is considered, every interaction smoothed out.",
+    "value2Title": "Transparent Partnership",
+    "value2Desc": "No hidden fees, no per-cover taxes. We are partners in your success, not a tax on your growth.",
+    "value3Title": "Design Matters",
+    "value3Desc": "Tools shouldn't just work; they should inspire. A beautiful interface reduces stress and increases joy."
+  },
+  "featuresPage": {
+    "heroTitle": "Everything you need to",
+    "heroHighlight": "run your floor",
+    "heroSuffix": ".",
+    "heroSubtitle": "Powerful tools for reservations, table management, and guest relationships.",
+    "card1Title": "Visual Table Planner",
+    "card1Desc": "Drag and drop reservations onto your exact floor plan. See availability at a glance and maximize seating capacity.",
+    "card2Title": "Online Booking",
+    "card2Desc": "Accept reservations 24/7 from your website, Google, and social media. No cover fees, ever.",
+    "card3Title": "Guest CRM",
+    "card3Desc": "Build a database of your guests. Track allergies, preferences, and visit history to provide personalized service.",
+    "card4Title": "Waitlist Management",
+    "card4Desc": "Quote accurate wait times and notify guests via SMS when their table is ready.",
+    "card5Title": "Shift Management",
+    "card5Desc": "Plan server rotations and manage floor sections effortlessly.",
+    "card6Title": "Analytics & Reporting",
+    "card6Desc": "Understand your peak times, most loyal guests, and revenue trends with detailed reports.",
+    "speedTitle": "Designed for speed",
+    "speedDesc": "In a busy restaurant, every second counts. miMesa is built to be fast, responsive, and easy to learn.",
+    "mockupLabel": "Interactive Floor Plan Mockup"
+  },
+  "pricingPage": {
+    "heroTitle": "Simple, transparent pricing.",
+    "heroSubtitle": "No setup fees. No hidden costs. Cancel anytime.",
+    "popularBadge": "POPULAR",
+    "getStarted": "Get Started",
+    "startTrial": "Start Free Trial",
+    "contactSales": "Contact Sales",
+    "free": {
+      "name": "Free",
+      "tagline": "Perfect to get started",
+      "price": "CHF 0",
+      "period": "/month, forever",
+      "features": [
+        "Up to 50 reservations/mo",
+        "Public booking page",
+        "Table management",
+        "Guest CRM",
+        "Email support"
+      ]
+    },
+    "starter": {
+      "name": "Starter",
+      "tagline": "For small restaurants",
+      "price": "CHF 49",
+      "period": "/month",
+      "features": [
+        "Up to 300 reservations/mo",
+        "Everything in Free",
+        "Timeline floor view",
+        "Revenue analytics",
+        "Priority email support"
+      ]
+    },
+    "pro": {
+      "name": "Pro",
+      "tagline": "For busy restaurants",
+      "price": "CHF 89",
+      "period": "/month",
+      "features": [
+        "Unlimited reservations",
+        "Everything in Starter",
+        "Custom booking page branding",
+        "Logo & colour palette",
+        "Priority phone & chat support",
+        "Swiss data storage certified"
+      ]
+    },
+    "enterprise": {
+      "name": "Enterprise",
+      "tagline": "Multi-location groups",
+      "price": "On request",
+      "period": "Custom pricing",
+      "features": [
+        "Everything in Pro",
+        "Multi-location dashboard",
+        "API access",
+        "Dedicated account manager",
+        "SLA & onboarding included"
+      ]
+    },
+    "comparison": "Tablein charges €79–129/mo. TheFork adds per-cover commissions on top. miMesa is flat-rate, commission-free, and hosted in Switzerland."
+  },
+  "contact": {
+    "heroTitle": "Get in touch",
+    "heroSubtitle": "Have questions about miMesa? We're here to help you upgrade your restaurant's experience.",
+    "talkTitle": "Let's talk.",
+    "talkSubtitle": "Fill out the form and our team will get back to you within 24 hours.",
+    "emailLabel": "Email",
+    "officeLabel": "Office",
+    "phoneLabel": "Phone",
+    "firstNameLabel": "First Name",
+    "lastNameLabel": "Last Name",
+    "emailFieldLabel": "Work Email",
+    "restaurantLabel": "Restaurant Name",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Tell us about your needs...",
+    "sendButton": "Send Message"
+  }
+}
