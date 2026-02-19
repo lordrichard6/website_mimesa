@@ -19,31 +19,33 @@ export const metadata: Metadata = {
   icons: {
     icon: "/icon.png",
   },
-  metadataBase: new URL('https://mimesa.app'),
+  metadataBase: new URL("https://mimesa.ch"),
   openGraph: {
     title: "miMesa - The Operating System for Modern Restaurants",
     description: "Handle reservations, tables, and guests with elegance. The all-in-one platform for modern restaurants.",
-    url: "https://mimesa.app",
+    url: "https://mimesa.ch",
     siteName: "miMesa",
-    images: [
-      {
-        url: "/og-image.jpg", // We should probably create a placeholder or use the logo for now if no OG image exists
-        width: 1200,
-        height: 630,
-      },
-    ],
-    locale: "en_US",
+    images: [{ url: "/og-image.jpg", width: 1200, height: 630 }],
     type: "website",
   },
 };
 
-export default function RootLayout({
+// The root layout wraps everything. The [locale] segment is the first path
+// segment, so we receive it here as a param. This is the only place <html>
+// and <body> are rendered, which avoids the hydration mismatch caused by
+// nested <html> tags when [locale]/layout.tsx also rendered them.
+export default async function RootLayout({
   children,
+  params,
 }: Readonly<{
   children: React.ReactNode;
+  params: Promise<{ locale?: string }>;
 }>) {
+  const { locale } = await params;
+  const lang = locale ?? "en";
+
   return (
-    <html lang="en">
+    <html lang={lang}>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         suppressHydrationWarning
