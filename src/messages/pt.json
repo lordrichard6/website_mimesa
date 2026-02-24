@@ -5,7 +5,9 @@
     "about": "Sobre",
     "contact": "Contacto",
     "login": "Entrar",
-    "start": "Começar grátis"
+    "start": "Começar grátis",
+    "solutions": "Soluções",
+    "blog": "Blog"
   },
   "hero": {
     "title": "Um sistema para gerir",
@@ -160,16 +162,12 @@
     "links": {
       "features": "Funcionalidades",
       "pricing": "Preços",
-      "changelog": "Novidades",
-      "docs": "Documentação",
-      "about": "Sobre Nós",
-      "careers": "Carreiras",
       "blog": "Blog",
+      "about": "Sobre Nós",
       "contact": "Contacto",
       "privacy": "Política de Privacidade",
       "terms": "Termos de Serviço",
-      "cookies": "Política de Cookies",
-      "dataProtection": "Proteção de Dados (DSG)"
+      "solutions": "Soluções"
     },
     "dataNotice": {
       "label": "Dados armazenados na Suíça",
@@ -297,6 +295,901 @@
     "lastNamePlaceholder": "Silva",
     "emailPlaceholder": "joao@restaurante.com",
     "restaurantPlaceholder": "O Pequeno Bistrô",
-    "sendButton": "Enviar Mensagem"
+    "sendButton": "Enviar Mensagem",
+    "successTitle": "Mensagem enviada!",
+    "successMessage": "Obrigado pelo contacto. Responderemos em até 24 horas.",
+    "sendingButton": "A enviar…"
+  },
+  "meta": {
+    "home": {
+      "title": "miMesa — Reservas de Restaurante Sem Comissões",
+      "description": "A plataforma completa de gestão de restaurantes. Reservas, gestão de mesas e CRM de clientes sem comissões. Feito na Suíça."
+    },
+    "features": {
+      "title": "Funcionalidades — miMesa",
+      "description": "Descubra as funcionalidades do miMesa: planeador visual de mesas, CRM de clientes, lembretes automáticos, gestão de lista de espera e muito mais."
+    },
+    "pricing": {
+      "title": "Preços — miMesa",
+      "description": "Preços simples e transparentes para restaurantes de qualquer dimensão. Comece grátis, atualize quando precisar."
+    },
+    "about": {
+      "title": "Sobre o miMesa",
+      "description": "A nossa missão é dar aos restaurantes as ferramentas necessárias para gerir reservas sem pagar comissões por cobertura."
+    },
+    "contact": {
+      "title": "Contacte-nos — miMesa",
+      "description": "Entre em contacto com a equipa miMesa. Adoraríamos ouvir de si."
+    },
+    "blog": {
+      "title": "Blog — miMesa",
+      "description": "Dicas, guias e perspetivas sobre gestão de restaurantes, reservas e tecnologia na hotelaria."
+    },
+    "privacy": {
+      "title": "Política de Privacidade — miMesa",
+      "description": "Como o miMesa recolhe, utiliza e protege os seus dados. Conforme com o RGPD e o revDSG suíço."
+    },
+    "terms": {
+      "title": "Termos de Serviço — miMesa",
+      "description": "Os termos e condições que regem a utilização da plataforma miMesa."
+    },
+    "solutions": {
+      "index": {
+        "title": "Soluções — miMesa",
+        "description": "Descubra como o miMesa ajuda restaurantes de todos os tipos a gerir reservas e clientes."
+      },
+      "fineDining": {
+        "title": "Software de Reservas para Restaurantes de Alta Cozinha — miMesa",
+        "description": "Gestão elegante de reservas para restaurantes de alta cozinha. CRM de clientes, planeador de mesas e zero comissões."
+      },
+      "casualDining": {
+        "title": "Software de Reservas para Restaurantes Casuais — miMesa",
+        "description": "Gestão de reservas simples e eficiente para restaurantes casuais."
+      },
+      "cafeBistro": {
+        "title": "Software de Reservas para Cafés e Bistrôs — miMesa",
+        "description": "Reservas e gestão de mesas simples, pensadas para cafés e bistrôs."
+      },
+      "barLounge": {
+        "title": "Software de Reservas para Bares e Lounges — miMesa",
+        "description": "Gira reservas, walk-ins e clientes VIP para bares e lounges."
+      },
+      "hotelRestaurant": {
+        "title": "Software de Reservas para Restaurantes de Hotel — miMesa",
+        "description": "Gestão de reservas integrada para restaurantes e salas de jantar de hotel."
+      },
+      "catering": {
+        "title": "Software de Gestão de Catering — miMesa",
+        "description": "Gira eventos, listas de convidados e horários para operações de catering."
+      }
+    },
+    "compare": {
+      "thefork": {
+        "title": "miMesa vs TheFork — Comparação",
+        "description": "Compare o miMesa com o TheFork. Veja por que os restaurantes escolhem reservas sem comissões."
+      },
+      "opentable": {
+        "title": "miMesa vs OpenTable — Comparação",
+        "description": "Compare o miMesa com o OpenTable. Sem taxas por cobertura, controlo total dos dados dos seus clientes."
+      },
+      "resy": {
+        "title": "miMesa vs Resy — Comparação",
+        "description": "Compare o miMesa com o Resy. Alojado na Suíça, reservas de restaurante sem comissões."
+      }
+    }
+  },
+  "valueProps": {
+    "items": [
+      {
+        "label": "0% Comissões",
+        "description": "Sem taxas por cobertura, nunca"
+      },
+      {
+        "label": "Reservas Online 24/7",
+        "description": "Os seus clientes reservam a qualquer hora"
+      },
+      {
+        "label": "Alojado na Suíça",
+        "description": "Os dados ficam na Suíça"
+      },
+      {
+        "label": "Multi-dispositivo",
+        "description": "Funciona em qualquer ecrã"
+      }
+    ]
+  },
+  "cta": {
+    "title": "Pronto para assumir o controlo das suas reservas?",
+    "subtitle": "Junte-se aos restaurantes em toda a Suíça que usam o miMesa para gerir reservas sem comissões.",
+    "button": "Começar Grátis",
+    "note": "Sem cartão de crédito. Plano gratuito disponível."
+  },
+  "blog": {
+    "title": "Blog",
+    "subtitle": "Dicas, guias e perspetivas para a gestão moderna de restaurantes.",
+    "noPosts": "Ainda não há artigos. Volte em breve!",
+    "readMore": "Ler mais",
+    "readingTime": "min de leitura",
+    "backToBlog": "Voltar ao blog",
+    "allPosts": "Todos os artigos",
+    "tags": "Etiquetas"
+  },
+  "notFound": {
+    "title": "Página não encontrada",
+    "description": "A página que procura não existe ou foi movida.",
+    "backHome": "Voltar ao início",
+    "helpfulLinks": "Links úteis",
+    "linkHome": "Início",
+    "linkBlog": "Blog",
+    "linkSolutions": "Soluções"
+  },
+  "privacy_page": {
+    "title": "Política de Privacidade",
+    "lastUpdated": "Última atualização: 24 de fevereiro de 2026",
+    "sections": [
+      {
+        "heading": "1. Introdução",
+        "content": "Esta política de privacidade explica como a **Lopes2tech** (\"nós\", \"nos\", \"nosso/a\"), que opera a plataforma miMesa (mimesa.ch e app.mimesa.ch), recolhe, utiliza e protege os seus dados pessoais.\n\nEstamos empenhados em proteger a sua privacidade em conformidade com a Lei Federal Suíça sobre Proteção de Dados (revDSG/nFADP) e o Regulamento Geral de Proteção de Dados da UE (RGPD)."
+      },
+      {
+        "heading": "2. Responsável pelo Tratamento de Dados",
+        "content": "O responsável pelo tratamento dos seus dados pessoais é:\n\n**Lopes2tech**\nSuíça\nEmail: privacy@mimesa.ch"
+      },
+      {
+        "heading": "3. Dados que Recolhemos",
+        "content": "Recolhemos as seguintes categorias de dados pessoais:",
+        "list": [
+          "Informações da conta: nome, endereço de email, nome do restaurante e dados de contacto",
+          "Dados de reservas: nomes dos clientes, tamanho do grupo, datas, horários e pedidos especiais",
+          "Dados de utilização: páginas visitadas, funcionalidades utilizadas e padrões de interação",
+          "Dados do dispositivo: tipo de navegador, sistema operativo e endereço IP",
+          "Dados de comunicação: mensagens enviadas através do nosso formulário de contacto ou canais de suporte"
+        ],
+        "afterList": "Não recolhemos dados pessoais sensíveis, como informações de saúde, crenças religiosas ou opiniões políticas."
+      },
+      {
+        "heading": "4. Como Utilizamos os Seus Dados",
+        "content": "Processamos os seus dados pessoais para os seguintes fins:",
+        "list": [
+          "Fornecer e melhorar os nossos serviços de gestão de reservas",
+          "Processar e gerir reservas de restaurantes",
+          "Enviar confirmações de reserva e lembretes",
+          "Prestar apoio ao cliente",
+          "Analisar padrões de utilização para melhorar a nossa plataforma",
+          "Garantir a segurança e integridade dos nossos serviços",
+          "Cumprir obrigações legais"
+        ]
+      },
+      {
+        "heading": "5. Armazenamento e Segurança dos Dados",
+        "content": "Todos os dados são armazenados exclusivamente em servidores localizados na **Suíça**. Implementamos medidas técnicas e organizacionais adequadas para proteger os seus dados pessoais contra acesso não autorizado, alteração, divulgação ou destruição.\n\nEstas medidas incluem encriptação em trânsito (TLS/SSL), encriptação em repouso, auditorias de segurança regulares e controlos de acesso que limitam o acesso aos dados apenas a pessoal autorizado."
+      },
+      {
+        "heading": "6. Partilha de Dados",
+        "content": "Não vendemos, alugamos nem comercializamos os seus dados pessoais. Podemos partilhar dados com:",
+        "list": [
+          "Prestadores de serviços que nos auxiliam na operação da nossa plataforma (alojamento, envio de emails, processamento de pagamentos)",
+          "Autoridades legais quando exigido por lei ou para proteger os nossos direitos",
+          "Terceiros com o seu consentimento explícito"
+        ],
+        "afterList": "Todos os prestadores de serviços estão contratualmente obrigados a processar dados em conformidade com as normas suíças e europeias de proteção de dados."
+      },
+      {
+        "heading": "7. Os Seus Direitos",
+        "content": "Ao abrigo do revDSG e do RGPD, tem os seguintes direitos:",
+        "list": [
+          "Direito de acesso: solicitar uma cópia dos seus dados pessoais",
+          "Direito de retificação: solicitar a correção de dados incorretos",
+          "Direito ao apagamento: solicitar a eliminação dos seus dados pessoais",
+          "Direito à portabilidade dos dados: receber os seus dados num formato estruturado e legível por máquina",
+          "Direito de oposição: opor-se ao tratamento baseado em interesses legítimos",
+          "Direito de retirar o consentimento: retirar o consentimento a qualquer momento quando o tratamento se baseia no consentimento"
+        ],
+        "afterList": "Para exercer qualquer um destes direitos, contacte-nos através de privacy@mimesa.ch."
+      },
+      {
+        "heading": "8. Cookies",
+        "content": "Utilizamos cookies essenciais necessários para o funcionamento da nossa plataforma. Não utilizamos cookies de rastreamento nem cookies de publicidade de terceiros.\n\nOs dados analíticos são recolhidos através do **Vercel Analytics**, que utiliza análises sem cookies e respeitadoras da privacidade, que não rastreiam utilizadores individuais entre sites."
+      },
+      {
+        "heading": "9. Retenção de Dados",
+        "content": "Conservamos os dados pessoais apenas durante o tempo necessário para cumprir os fins descritos nesta política, ou conforme exigido por lei. Quando os dados deixam de ser necessários, são eliminados de forma segura ou anonimizados."
+      },
+      {
+        "heading": "10. Alterações a Esta Política",
+        "content": "Podemos atualizar esta política de privacidade periodicamente. As alterações serão publicadas nesta página com uma data de revisão atualizada. Encorajamos a revisão periódica desta política."
+      },
+      {
+        "heading": "11. Contacto",
+        "content": "Se tiver dúvidas sobre esta política de privacidade ou as nossas práticas de dados, contacte-nos em:\n\n**Lopes2tech**\nEmail: privacy@mimesa.ch"
+      }
+    ]
+  },
+  "terms_page": {
+    "title": "Termos de Serviço",
+    "lastUpdated": "Última atualização: 24 de fevereiro de 2026",
+    "sections": [
+      {
+        "heading": "1. Aceitação dos Termos",
+        "content": "Ao aceder ou utilizar a plataforma miMesa (mimesa.ch e app.mimesa.ch), operada pela **Lopes2tech** (\"nós\", \"nos\", \"nosso/a\"), concorda em ficar vinculado a estes Termos de Serviço. Se não concordar com estes termos, não poderá utilizar os nossos serviços."
+      },
+      {
+        "heading": "2. Descrição do Serviço",
+        "content": "O miMesa é uma plataforma de gestão de reservas de restaurantes que fornece ferramentas para reservas online, gestão de mesas, CRM de clientes, gestão de lista de espera e análises. O serviço é oferecido como uma solução de Software-as-a-Service (SaaS)."
+      },
+      {
+        "heading": "3. Registo de Conta",
+        "content": "Para utilizar o miMesa, deve criar uma conta e fornecer informações precisas e completas. É responsável por:",
+        "list": [
+          "Manter a confidencialidade das suas credenciais de conta",
+          "Todas as atividades que ocorram na sua conta",
+          "Notificar-nos imediatamente de qualquer acesso não autorizado",
+          "Garantir que todas as informações fornecidas são precisas e atualizadas"
+        ]
+      },
+      {
+        "heading": "4. Utilização Aceitável",
+        "content": "Concorda em utilizar o miMesa apenas para fins lícitos e em conformidade com estes termos. Não pode:",
+        "list": [
+          "Utilizar o serviço para qualquer finalidade ilegal ou não autorizada",
+          "Tentar obter acesso não autorizado aos nossos sistemas ou contas de outros utilizadores",
+          "Interferir com ou perturbar o serviço ou os servidores",
+          "Carregar código malicioso, vírus ou conteúdo prejudicial",
+          "Revender, redistribuir ou sublicenciar o serviço sem autorização",
+          "Utilizar sistemas automatizados para aceder ao serviço sem o nosso consentimento"
+        ]
+      },
+      {
+        "heading": "5. Preços e Pagamento",
+        "content": "O miMesa oferece vários planos de preços conforme apresentado na nossa página de preços. Os preços são em CHF (francos suíços) e excluem impostos aplicáveis (IVA).\n\nAs taxas de subscrição são cobradas mensalmente com antecedência. Pode atualizar, reduzir ou cancelar a sua subscrição a qualquer momento. O cancelamento entra em vigor no final do período de faturação atual.\n\nReservamo-nos o direito de modificar os nossos preços com 30 dias de aviso prévio."
+      },
+      {
+        "heading": "6. Propriedade dos Dados",
+        "content": "Mantém a propriedade total de todos os dados que introduz no miMesa, incluindo informações de clientes, dados de reservas e configuração do restaurante. Não reivindicamos quaisquer direitos de propriedade sobre os seus dados.\n\nConcede-nos uma licença limitada para processar os seus dados exclusivamente para fins de fornecimento e melhoria dos nossos serviços."
+      },
+      {
+        "heading": "7. Disponibilidade do Serviço",
+        "content": "Esforçamo-nos por manter 99,9% de disponibilidade dos nossos serviços. No entanto, não garantimos acesso ininterrupto e não somos responsáveis por indisponibilidade temporária devido a:\n\nManutenção programada (com aviso prévio), eventos de força maior, interrupções de serviços de terceiros ou circunstâncias fora do nosso controlo razoável."
+      },
+      {
+        "heading": "8. Propriedade Intelectual",
+        "content": "A plataforma miMesa, incluindo o seu design, código, funcionalidades e marca, é propriedade intelectual da Lopes2tech. Não pode copiar, modificar ou fazer engenharia reversa de qualquer parte do serviço.\n\nA sua utilização do miMesa não lhe confere quaisquer direitos de propriedade intelectual sobre o serviço além do direito de o utilizar de acordo com estes termos."
+      },
+      {
+        "heading": "9. Limitação de Responsabilidade",
+        "content": "Na máxima extensão permitida pela lei suíça, a Lopes2tech não será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes da sua utilização do serviço.\n\nA nossa responsabilidade total por qualquer reclamação decorrente destes termos não excederá o montante que nos pagou nos 12 meses anteriores à reclamação."
+      },
+      {
+        "heading": "10. Rescisão",
+        "content": "Qualquer uma das partes pode rescindir este contrato a qualquer momento. Após a rescisão:\n\nO seu acesso ao serviço será revogado no final do seu período de faturação atual. Pode exportar os seus dados antes da rescisão. Eliminaremos os seus dados no prazo de 30 dias após a rescisão, salvo se a retenção for exigida por lei."
+      },
+      {
+        "heading": "11. Lei Aplicável",
+        "content": "Estes termos são regidos pelas leis da **Suíça**. Quaisquer litígios decorrentes destes termos estarão sujeitos à jurisdição exclusiva dos tribunais do Cantão de Zurique, Suíça."
+      },
+      {
+        "heading": "12. Alterações aos Termos",
+        "content": "Podemos modificar estes termos periodicamente. Alterações materiais serão comunicadas por email ou através da plataforma com pelo menos 30 dias de aviso prévio. A utilização continuada do serviço após as alterações entrarem em vigor constitui a aceitação dos termos atualizados."
+      },
+      {
+        "heading": "13. Contacto",
+        "content": "Para questões sobre estes termos, contacte-nos em:\n\n**Lopes2tech**\nEmail: legal@mimesa.ch"
+      }
+    ]
+  },
+  "solutions_index": {
+    "title": "Soluções para Cada Tipo de Restaurante",
+    "subtitle": "O miMesa adapta-se ao seu estilo de serviço. Quer tenha um restaurante de alta cozinha ou um café movimentado, temos as ferramentas de que precisa.",
+    "types": [
+      {
+        "name": "Alta Cozinha",
+        "slug": "fine-dining",
+        "emoji": "🍷",
+        "description": "Gestão elegante de reservas para experiências gastronómicas de luxo."
+      },
+      {
+        "name": "Restaurante Casual",
+        "slug": "casual-dining",
+        "emoji": "🍽️",
+        "description": "Reservas eficientes para restaurantes familiares e de gama média."
+      },
+      {
+        "name": "Café e Bistrô",
+        "slug": "cafe-bistro",
+        "emoji": "☕",
+        "description": "Reservas simples e gestão de walk-ins para cafés."
+      },
+      {
+        "name": "Bar e Lounge",
+        "slug": "bar-lounge",
+        "emoji": "🍸",
+        "description": "Gira reservas, VIPs e eventos para espaços noturnos."
+      },
+      {
+        "name": "Restaurante de Hotel",
+        "slug": "hotel-restaurant",
+        "emoji": "🏨",
+        "description": "Gestão de refeições integrada com as operações do hotel."
+      },
+      {
+        "name": "Catering",
+        "slug": "catering",
+        "emoji": "🎪",
+        "description": "Planeamento de eventos, listas de convidados e agendamento para empresas de catering."
+      }
+    ]
+  },
+  "solutionPage": {
+    "heroBadge": "Soluções",
+    "crmBadge": "Porquê o miMesa?",
+    "crmTitle": "Tudo o que precisa para gerir as suas reservas",
+    "howItWorksTitle": "Como funciona",
+    "faqTitle": "Perguntas frequentes",
+    "steps": [
+      {
+        "title": "Registe-se gratuitamente",
+        "description": "Crie a sua conta em menos de 2 minutos. Sem cartão de crédito."
+      },
+      {
+        "title": "Configure o seu plano de sala",
+        "description": "Configure as suas mesas, secções e regras de reserva para corresponder ao seu restaurante."
+      },
+      {
+        "title": "Comece a aceitar reservas",
+        "description": "Partilhe a sua página de reservas e veja as reservas a chegar automaticamente."
+      }
+    ],
+    "crmFeatures": [
+      {
+        "title": "Planeador Visual de Mesas",
+        "description": "Gestão de mesas por arrasto com estado em tempo real."
+      },
+      {
+        "title": "CRM de Clientes",
+        "description": "Registe preferências, alergias e histórico de visitas de cada cliente."
+      },
+      {
+        "title": "Lembretes Automáticos",
+        "description": "Reduza ausências com confirmações por email e SMS."
+      },
+      {
+        "title": "Gestão de Lista de Espera",
+        "description": "Gira walk-ins e notifique clientes quando as mesas estiverem prontas."
+      },
+      {
+        "title": "Painel de Análises",
+        "description": "Acompanhe tendências de reservas, horários de pico e receitas."
+      },
+      {
+        "title": "Suporte Multi-Dispositivo",
+        "description": "Funciona em tablets, telemóveis e navegadores desktop."
+      }
+    ]
+  },
+  "solutions": {
+    "fineDining": {
+      "heroTitle": "Software de Reservas para Alta Cozinha",
+      "heroSubtitle": "Ofereça experiências excecionais aos seus clientes com gestão elegante de mesas e perfis detalhados.",
+      "features": [
+        {
+          "title": "Reconhecimento de Clientes VIP",
+          "description": "Conheça os seus habituais antes de chegarem com histórico detalhado de visitas e preferências."
+        },
+        {
+          "title": "Gestão de Menus Degustação",
+          "description": "Gira reservas multi-pratos com horários personalizados e requisitos de lugar."
+        },
+        {
+          "title": "Cobrança de Depósitos",
+          "description": "Assegure reservas de alto valor com depósitos Stripe integrados."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Serviço de Excelência",
+          "description": "Registe alergias, preferências de vinho e ocasiões especiais de cada cliente.",
+          "icon": "star"
+        },
+        {
+          "title": "Atribuição de Mesas Premium",
+          "description": "Atribua as melhores mesas a clientes VIP automaticamente com base no seu perfil.",
+          "icon": "layout"
+        },
+        {
+          "title": "Otimização de Receita",
+          "description": "Maximize coberturas por serviço com gestão inteligente de tempos de rotação.",
+          "icon": "trending"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Posso gerir várias salas de jantar?",
+          "answer": "Sim, o miMesa suporta vários planos de sala e áreas de refeição num único estabelecimento."
+        },
+        {
+          "question": "Suportam cobrança de depósitos?",
+          "answer": "Sim, integramos com o Stripe para cobrança segura de depósitos e pré-pagamentos."
+        },
+        {
+          "question": "Posso personalizar a página de reservas?",
+          "answer": "Com certeza. Adicione o seu logótipo, cores e mensagens personalizadas para corresponder à sua marca."
+        }
+      ]
+    },
+    "casualDining": {
+      "heroTitle": "Software de Reservas para Restaurantes Casuais",
+      "heroSubtitle": "Mantenha as suas mesas cheias e os seus clientes satisfeitos com gestão de reservas simplificada.",
+      "features": [
+        {
+          "title": "Amigável para Walk-Ins",
+          "description": "Misture reservas e walk-ins de forma fluida com disponibilidade de mesas em tempo real."
+        },
+        {
+          "title": "Gestão de Grupos Familiares",
+          "description": "Gira facilmente grupos grandes e combinações de mesas para famílias."
+        },
+        {
+          "title": "Gestão de Horas de Pico",
+          "description": "Otimize tempos de rotação durante almoços e jantares movimentados."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Rotação Rápida",
+          "description": "Acelere a rotação de mesas com rastreio automático de estado e alertas.",
+          "icon": "clock"
+        },
+        {
+          "title": "Fidelização de Clientes",
+          "description": "Acompanhe visitas repetidas e recompense os seus clientes mais fiéis.",
+          "icon": "heart"
+        },
+        {
+          "title": "Coordenação de Equipa",
+          "description": "Mantenha anfitriões, empregados e gestores sincronizados com atualizações em tempo real.",
+          "icon": "users"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Posso gerir reservas e walk-ins?",
+          "answer": "Sim, o miMesa facilita a gestão de ambos. Walk-ins são adicionados com um toque e integrados no seu plano de sala."
+        },
+        {
+          "question": "Existe uma funcionalidade de lista de espera?",
+          "answer": "Sim, os clientes podem juntar-se à lista de espera e receber notificações SMS quando a mesa estiver pronta."
+        },
+        {
+          "question": "Posso definir regras diferentes para almoço e jantar?",
+          "answer": "Com certeza. Configure turnos separados com diferentes tempos de rotação, disponibilidade e limites de reserva."
+        }
+      ]
+    },
+    "cafeBistro": {
+      "heroTitle": "Software de Reservas para Cafés e Bistrôs",
+      "heroSubtitle": "Um sistema de reservas leve e fácil de usar, concebido para o ritmo e estilo de cafés e bistrôs.",
+      "features": [
+        {
+          "title": "Configuração Simples",
+          "description": "Comece em minutos com um processo de configuração simplificado para pequenos espaços."
+        },
+        {
+          "title": "Lugares Flexíveis",
+          "description": "Gira lugares interiores, exteriores e de balcão a partir de uma única vista."
+        },
+        {
+          "title": "Reservas Rápidas",
+          "description": "Aceite reservas online 24/7 sem telefonemas ou idas e vindas."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Balcão e Mesa",
+          "description": "Gira serviço de balcão e reservas de mesa num sistema unificado.",
+          "icon": "coffee"
+        },
+        {
+          "title": "De Manhã à Noite",
+          "description": "Gira pequeno-almoço, almoço e serviço noturno com configurações de turno separadas.",
+          "icon": "sun"
+        },
+        {
+          "title": "Reconhecimento de Habituais",
+          "description": "Lembre-se dos seus habituais e dos seus pedidos favoritos automaticamente.",
+          "icon": "heart"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "O miMesa é adequado para um pequeno café?",
+          "answer": "Com certeza. O nosso plano gratuito é perfeito para pequenos cafés com até 50 reservas por mês."
+        },
+        {
+          "question": "Posso gerir lugares exteriores?",
+          "answer": "Sim, crie planos de sala separados para áreas interiores e exteriores com disponibilidade independente."
+        },
+        {
+          "question": "Preciso de hardware especial?",
+          "answer": "Não. O miMesa funciona em qualquer dispositivo com navegador — tablets, telemóveis ou portáteis."
+        }
+      ]
+    },
+    "barLounge": {
+      "heroTitle": "Software de Reservas para Bares e Lounges",
+      "heroSubtitle": "Gira reservas, mesas VIP e eventos com um sistema feito para ambientes noturnos.",
+      "features": [
+        {
+          "title": "Gestão de Mesas VIP",
+          "description": "Reserve lugares premium e áreas de serviço de garrafas com regras especiais."
+        },
+        {
+          "title": "Reservas de Eventos",
+          "description": "Gira eventos privados, pacotes de aniversário e reservas de grupo sem esforço."
+        },
+        {
+          "title": "Turnos Noturnos",
+          "description": "Configure regras de reserva que funcionam para além da meia-noite."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Pronto para a Noite",
+          "description": "Feito para as necessidades únicas de bares, clubes e lounges com horários flexíveis.",
+          "icon": "moon"
+        },
+        {
+          "title": "Listas de Convidados",
+          "description": "Gira listas de porta e check-ins com confirmação num toque.",
+          "icon": "clipboard"
+        },
+        {
+          "title": "Rastreio de Gastos",
+          "description": "Acompanhe requisitos de gasto mínimo e receita de serviço de garrafas.",
+          "icon": "trending"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Posso definir gasto mínimo para mesas VIP?",
+          "answer": "Sim, pode configurar requisitos de gasto mínimo e cobrança de depósitos para áreas premium."
+        },
+        {
+          "question": "Funciona para eventos?",
+          "answer": "Sim, gira eventos privados com listas de convidados personalizadas, menus especiais e áreas dedicadas."
+        },
+        {
+          "question": "Posso gerir entrada e reservas em conjunto?",
+          "answer": "Com certeza. Use a funcionalidade de lista de convidados juntamente com reservas de mesa para gestão completa do espaço."
+        }
+      ]
+    },
+    "hotelRestaurant": {
+      "heroTitle": "Software de Reservas para Restaurantes de Hotel",
+      "heroSubtitle": "Gira reservas de refeições integradas com as operações do hotel e dados de clientes que fluem entre sistemas.",
+      "features": [
+        {
+          "title": "Integração com Conta do Quarto",
+          "description": "Ligue reservas de refeições a números de quarto para faturação fluida."
+        },
+        {
+          "title": "Gestão Multi-Espaço",
+          "description": "Gira vários espaços de refeição — bar do lobby, restaurante rooftop, sala de pequeno-almoço — num painel."
+        },
+        {
+          "title": "Ferramentas de Concierge",
+          "description": "Permita que a equipa de concierge reserve mesas para clientes com acesso dedicado."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Jornada do Hóspede",
+          "description": "Acompanhe toda a jornada gastronómica desde o check-in até ao checkout em todos os espaços.",
+          "icon": "map"
+        },
+        {
+          "title": "Capacidade de Pequeno-Almoço",
+          "description": "Gira a capacidade do serviço de pequeno-almoço e horários para hóspedes do hotel.",
+          "icon": "sun"
+        },
+        {
+          "title": "Reservas de Grupo",
+          "description": "Gira refeições de conferência, receções de casamento e grandes eventos de grupo.",
+          "icon": "users"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Posso gerir vários restaurantes num hotel?",
+          "answer": "Sim, o miMesa suporta vários espaços numa conta com planos de sala e regras de reserva separados."
+        },
+        {
+          "question": "Integra com sistemas PMS de hotel?",
+          "answer": "Oferecemos acesso API no plano Enterprise para integração com sistemas PMS de hotel populares."
+        },
+        {
+          "question": "Os hóspedes do hotel podem reservar mesas online?",
+          "answer": "Sim, partilhe a sua página de reservas no website do hotel e nos emails de confirmação para fácil acesso."
+        }
+      ]
+    },
+    "catering": {
+      "heroTitle": "Software de Gestão para Operações de Catering",
+      "heroSubtitle": "Planeie eventos, gira listas de convidados e coordene horários com uma plataforma feita para profissionais de catering.",
+      "features": [
+        {
+          "title": "Agendamento de Eventos",
+          "description": "Planeie e agende múltiplos eventos com vistas de linha do tempo e alocação de recursos."
+        },
+        {
+          "title": "Gestão de Listas de Convidados",
+          "description": "Importe, organize e acompanhe RSVPs para eventos de qualquer dimensão."
+        },
+        {
+          "title": "Coordenação de Menus",
+          "description": "Anexe menus personalizados e requisitos dietéticos a cada reserva de evento."
+        }
+      ],
+      "spotlights": [
+        {
+          "title": "Vista Multi-Eventos",
+          "description": "Veja todos os eventos futuros num calendário unificado com atribuições de pessoal.",
+          "icon": "calendar"
+        },
+        {
+          "title": "CRM de Clientes",
+          "description": "Acompanhe relações com clientes, histórico de eventos e preferências para negócio recorrente.",
+          "icon": "users"
+        },
+        {
+          "title": "Planeamento Logístico",
+          "description": "Coordene equipamento, pessoal e detalhes do local para cada evento.",
+          "icon": "truck"
+        }
+      ],
+      "faqs": [
+        {
+          "question": "Posso gerir vários eventos no mesmo dia?",
+          "answer": "Sim, o miMesa suporta eventos concorrentes ilimitados com listas de convidados e cronogramas separados."
+        },
+        {
+          "question": "Existe forma de rastrear requisitos dietéticos?",
+          "answer": "Sim, recolha e acompanhe requisitos dietéticos e alergias de cada convidado através do formulário de reserva."
+        },
+        {
+          "question": "Os clientes podem reservar serviços de catering online?",
+          "answer": "Sim, crie uma página de reservas personalizada onde os clientes podem pedir orçamentos e reservar os seus serviços."
+        }
+      ]
+    }
+  },
+  "compare_shared": {
+    "feature": "Funcionalidade",
+    "mimesa": "miMesa",
+    "verdict": "O veredicto",
+    "yes": "Sim",
+    "no": "Não",
+    "limited": "Limitado",
+    "switchCta": "Mudar para o miMesa"
+  },
+  "compare": {
+    "thefork": {
+      "heroTitle": "miMesa vs TheFork",
+      "heroSubtitle": "Compare reservas sem comissões com o modelo de marketplace do TheFork.",
+      "competitorName": "TheFork",
+      "features": [
+        {
+          "feature": "0% Comissão",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Planeador Visual de Mesas",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "CRM de Clientes",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Lembretes por Email",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Gestão de Lista de Espera",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Gestão de Equipas",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Alojamento de Dados na Suíça",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Página de Reservas Personalizada",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Suporte Multi-Dispositivo",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Painel de Análises",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Cobrança de Depósitos",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Acesso à API",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Multi-Localização",
+          "mimesa": true,
+          "competitor": true
+        }
+      ],
+      "verdict": "O TheFork cobra comissões por cobertura que crescem com o seu sucesso. O miMesa oferece um preço mensal fixo sem comissões, alojamento de dados na Suíça e propriedade total dos seus dados de clientes."
+    },
+    "opentable": {
+      "heroTitle": "miMesa vs OpenTable",
+      "heroSubtitle": "Veja como os preços fixos do miMesa se comparam às taxas por cobertura do OpenTable.",
+      "competitorName": "OpenTable",
+      "features": [
+        {
+          "feature": "0% Comissão",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Planeador Visual de Mesas",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "CRM de Clientes",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Lembretes por Email",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Gestão de Lista de Espera",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Gestão de Equipas",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Alojamento de Dados na Suíça",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Página de Reservas Personalizada",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Suporte Multi-Dispositivo",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Painel de Análises",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Cobrança de Depósitos",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Acesso à API",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Multi-Localização",
+          "mimesa": true,
+          "competitor": true
+        }
+      ],
+      "verdict": "O OpenTable cobra taxas por cobertura que se acumulam rapidamente para restaurantes movimentados. O miMesa oferece as mesmas funcionalidades poderosas a um preço mensal fixo sem custos ocultos e privacidade de dados suíça."
+    },
+    "resy": {
+      "heroTitle": "miMesa vs Resy",
+      "heroSubtitle": "Compare a plataforma europeia do miMesa com a abordagem centrada nos EUA do Resy.",
+      "competitorName": "Resy",
+      "features": [
+        {
+          "feature": "0% Comissão",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Planeador Visual de Mesas",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "CRM de Clientes",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Lembretes por Email",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Gestão de Lista de Espera",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Gestão de Equipas",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Alojamento de Dados na Suíça",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Página de Reservas Personalizada",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Suporte Multi-Dispositivo",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Painel de Análises",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Cobrança de Depósitos",
+          "mimesa": true,
+          "competitor": true
+        },
+        {
+          "feature": "Acesso à API",
+          "mimesa": true,
+          "competitor": false
+        },
+        {
+          "feature": "Multi-Localização",
+          "mimesa": true,
+          "competitor": true
+        }
+      ],
+      "verdict": "O Resy é popular nos EUA mas oferece suporte europeu limitado. O miMesa é feito na Suíça, oferece alojamento de dados suíço, conformidade com o RGPD e uma experiência de reservas totalmente personalizada a um preço competitivo."
+    }
   }
 }

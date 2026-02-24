@@ -1,0 +1,21 @@
+{
+  "name": "miMesa",
+  "short_name": "miMesa",
+  "description": "Commission-free restaurant reservation and management platform",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#2F2519",
+  "background_color": "#ffffff",
+  "icons": [
+    {
+      "src": "/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}
