@@ -3,7 +3,7 @@ import { getAllSlugs } from "@/lib/blog";
 import fs from "fs";
 import path from "path";
 
-const BASE_URL = "https://mimesa.ch";
+const BASE_URL = "https://www.mimesa.ch";
 const locales = ["en", "de", "fr", "pt"] as const;
 
 const staticRoutes = [
